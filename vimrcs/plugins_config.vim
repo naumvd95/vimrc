@@ -30,6 +30,12 @@ map <leader>o :BufExplorer<cr>
 let MRU_Max_Entries = 400
 map <leader>f :MRU<CR>
 
+""""""""""""""""""""""""""""""
+" => vim-terraform plugin
+""""""""""""""""""""""""""""""
+let g:terraform_align=1
+let g:terraform_fmt_on_save=1
+
 
 """"""""""""""""""""""""""""""
 " => YankStack

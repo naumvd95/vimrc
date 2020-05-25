@@ -28,8 +28,10 @@ set guioptions-=l
 set guioptions-=L
 
 " Colorscheme
+let g:solarized_termcolors=256
+syntax enable
 set background=dark
-colorscheme peaksea
+colorscheme solarized
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
